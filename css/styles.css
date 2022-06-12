@@ -161,9 +161,9 @@ p {
 }
 
 .header-nav-link {
+    color: var(--nav-link-color);
     position: relative;
 }
-
 
 .header-address-link {
     display: flex;
@@ -175,10 +175,6 @@ p {
 .header-address-link:hover,
 .header-address-link:focus {
     color: var(--accent-color);
-}
-
-.header-nav-link {
-    color: var(--nav-link-color);
 }
 
 .header-nav-link.current {
@@ -650,7 +646,7 @@ p {
     overflow: hidden;
 }
 
-.portfolio-overlay {
+.portfolio-text-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -676,7 +672,7 @@ p {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.portfolio-link:hover .portfolio-overlay {
+.portfolio-link:hover .portfolio-text-overlay {
     transform: translateY(0);
 }
 
